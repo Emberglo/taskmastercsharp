@@ -6,6 +6,10 @@ namespace taskmastercsharp.Models
         public int Id { get; set; }
         public string CreatorId { get; set; }
         public Profile Creator { get; set; }
-        public int listId { get; set; }
+    }
+
+    public class ListTaskViewModel : MyTask
+    {
+        public int ListTaskId { get; set; }
     }
 }
